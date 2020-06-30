@@ -126,7 +126,7 @@ $(document).ready(function($) {
 
         $(".btn-comment").click(function(){
             currenctpostid=$(this).closest(".item").prop("id");
-            currentTitle=$(this).closest(".item").find(".title-text").text();·
+            currentTitle=$(this).closest(".item").find(".title-text").text();
         });
         setTimeout(function(){
            $('#container').pinto();
@@ -157,7 +157,7 @@ $(document).ready(function($) {
             var newtext = document.createElement('p');
             newtext.style.width="85%";
             newtext.style.fontSize="12px";
-            newtext.style.display="inline-block";·
+            newtext.style.display="inline-block";
             newtext.style.margin="0";
             newtext.style.verticalAlign="middle";
             newtext.innerHTML=value.text;
