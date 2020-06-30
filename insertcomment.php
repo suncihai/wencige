@@ -4,6 +4,7 @@
   $postid  = $_POST["postId"];
   $commentId = $_POST["commentId"];
   $postDate = $_POST["postDate"];
+  $title = $_POST["title"];
   $text=$_POST["text"];
   $author=$_POST["author"];
  
@@ -22,7 +23,7 @@
     echo json_encode($data);
   }
 
-  $msg = "叮咚！".$postDate."这篇帖子有新的回复啦~\n快来看看啦！~";
+  $msg = "叮咚！".$postDate." ".$title."这篇帖子有新的回复啦~\n快来看看啦！~";
 
   // use wordwrap() if lines are longer than 70 characters
   $msg = wordwrap($msg,70);

@@ -3,6 +3,7 @@ $(document).ready(function($) {
     var uploadfilename;
     var uagent = navigator.userAgent.toLowerCase();
     var currenctpostid;
+    var currentTitle;
     var lastid;
     var postcount = localStorage.getItem("postcount");
                         
@@ -74,6 +75,7 @@ $(document).ready(function($) {
 
             var newatag1 = document.createElement('a');
             newatag1.setAttribute("href",'');
+            newatag1.setAttribute("class",'title-text');
             newatag1.innerHTML=value.title;
 
             var newdiv2 = document.createElement('div');
@@ -124,6 +126,7 @@ $(document).ready(function($) {
 
         $(".btn-comment").click(function(){
             currenctpostid=$(this).closest(".item").prop("id");
+            currentTitle=$(this).closest(".item").find(".title-text").text();·
         });
         setTimeout(function(){
            $('#container').pinto();
@@ -154,7 +157,7 @@ $(document).ready(function($) {
             var newtext = document.createElement('p');
             newtext.style.width="85%";
             newtext.style.fontSize="12px";
-            newtext.style.display="inline-block";
+            newtext.style.display="inline-block";·
             newtext.style.margin="0";
             newtext.style.verticalAlign="middle";
             newtext.innerHTML=value.text;
@@ -287,7 +290,7 @@ $(document).ready(function($) {
             type:"POST",
             url:"insertcomment.php",             
             dataType: 'json',
-            data:{postId:currenctpostid,commentId:commentId,postDate:date,text:text,author:author},               
+            data:{postId:currenctpostid,commentId:commentId,postDate:date,title:currentTitle,text:text,author:author},               
             success: function(response){
                 location.reload();                 
             }
