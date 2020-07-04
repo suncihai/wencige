@@ -93,6 +93,7 @@
 ?>
 
 <body>
+    <div id="bubble_dummylayer"><div id="bubble_layer"></div></div>
     <div id="password_layer" class="password" style="position:fixed;background:black;opacity:0.8;left:0;top:0;width:100%;height:100vh;z-index:9999;"></div>
     <div id="password_panel" class="password" style="position:fixed;z-index:9999;top:30%;padding:30px;background:white;border:2px solid white;box-shadow:0 0 10px white;border-radius:5px;left:50%;transform:translateX(-50%);transition:ease 1s;">
         <div id="login_panel">

@@ -3,49 +3,49 @@ $(document).ready(function(){
 
      var content=[
         {
-          "content":"又是新的一天，吃完了早饭，走出大楼的大门，一股清新的空气迎面而来。宝宝应该已经吃完晚饭了吧~~于是我掏出了手机，拨通了宝宝的手机。",
+          "content":"今天约好了和娇娇去某个drive through的动物园玩",
           "image":"images/diary/pic1.JPG",
           "actor":""
         },
         {
-          "content":"噔噔噔噔噔噔，噔噔噔噔噔噔，手机里想起了清脆的铃声",
+          "content":"之前和娇娇逛自然博物馆时，娇娇就说过很喜欢动物",
           "image":"images/diary/pic1.JPG",
           "actor":""
         },
         {
-          "content":"【喂~】",
+          "content":"所以这次我就规划了这次动物园之行",
           "image":"images/diary/pic1.JPG",
           "actor":""
         },
         {
-          "content":"电话那头传来了奶声奶气的声音",
+          "content":"可能，在动物面前，娇娇才能放飞自我吧=。=",
           "image":"images/diary/pic1.JPG",
           "actor":""
         },
         {
-          "content":"宝宝心情好的时候就是这样的声音，所以一听这个声音，我就知道宝宝现在应该没什么烦心事，估计刚吃饱肚子~~",
+          "content":"在动森里玩的娇娇也是，看到喜欢的小动物都会扑上去。",
           "image":"images/diary/pic1.JPG",
           "actor":""
         },
         {
-          "content":"【晚饭吃了啥呀？】我坏笑地问道",
-          "image":"images/diary/pic1.JPG",
-          "actor":"images/diary/per1.png"
-        },
-        {
-          "content":"【吃了大闸蟹啊~~好好吃啊，我吃了六个呢~~】宝宝咯咯咯地笑着说",
-          "image":"images/diary/pic1.JPG",
+          "content":"路上虽然有点堵，不过唠唠嗑时间过得很快，还是到了",
+          "image":"images/diary/pic2.JPG",
           "actor":""
         },
         {
-          "content":"【哇，这么爽啊~~】我一脸羡慕",
-          "image":"images/diary/pic1.JPG",
-          "actor":"images/diary/per1.png"
+          "content":"【到啦～】",
+          "image":"images/diary/pic2.JPG",
+          "actor":"images/diary/cihai_1.png"
         },
         {
-          "content":"【对啊，好想也给乖乖吃啊~~】宝宝娇嗔道",
-          "image":"images/diary/pic1.JPG",
-          "actor":""
+          "content":"【哇，到啦到啦~~】",
+          "image":"images/diary/pic2.JPG",
+          "actor":"images/diary/wenhui_1.png"
+        },
+        {
+          "content":"【看把你高兴的】",
+          "image":"images/diary/pic2.JPG",
+          "actor":"images/diary/cihai_1.png"
         },
         {
           "content":"【没关系啦，我对大闸蟹不是那么感冒啦，上次来的时候我也是把蟹都留给宝宝吃了呀~】",

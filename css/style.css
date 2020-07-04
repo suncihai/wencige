@@ -171,9 +171,21 @@ article h3{padding: 0;}
   background-color: #adadad;
   }
 
+#bubble_dummylayer{
+  position: absolute;
+  z-index:100;
+}
+
+#bubble_layer{
+  position:relative;
+  width:100%;
+  height:auto;
+}
+
 .header{
   opacity:0;
 }
+
 #choose_character{
   text-align:center;
 }
@@ -227,6 +239,11 @@ article h3{padding: 0;}
   text-align: center;
   transition: ease 0.5s;
   opacity: 0;
+}
+
+.content-item a{
+  color:#337ab7;
+  text-decoration: underline;
 }
 
 @-webkit-keyframes slide-left {
