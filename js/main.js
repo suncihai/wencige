@@ -63,7 +63,7 @@ $(document).ready(function($) {
             var $tag1 = $("<h5>").prop({"class":"title-text"}).html(value.title);
             var $div2 = $("<div>").prop("class","time").html(value.postDate);
             var $div3 = $("<div>").prop("class","bottom-item");
-            var $spanleft = $("<span>").prop({"class":"user f-left btn btn-comment","data-toggle":"modal","data-target":"#newcommentmodal"});
+            var $spanleft = $("<span>").attr({"class":"user f-left btn btn-comment","data-toggle":"modal","data-target":"#newcommentmodal"});
             var $commention = $("<i>").prop("class","fa fa-comment-o").css({fontSize:"x-large",marginTop:"5px"});
             var $span = $("<span>").prop("class","user f-right").html("发帖人 ");
 
@@ -78,19 +78,12 @@ $(document).ready(function($) {
             var $text = $("<p>").html(value.text);
 
             $container.append($div);
-            $div.append($tag);
+            $div.append($tag).append($div1).append($div3);
             $tag.append($img);
-            $div.append($div1);
-            $div1.append($h3);
+            $div1.append($h3).append($div2).append($text);
             $h3.append($tag1);
-            $div1.append($div2);
-            $div1.append($text);
-            $div.append($div3);
-            $div3.append($spanleft);
-            $spanleft.append($commention);
-            $div3.append($span);
-            $span.append($user);
-            $span.append($avatar);
+            $div3.append($spanleft.append($commention)).append($span);
+            $span.append($user).append($avatar);
         });
 
         $(".btn-comment").click(function(){
@@ -108,32 +101,13 @@ $(document).ready(function($) {
         });
         $.each( data, function( key, value ) {
             var post = document.getElementById(value.postid);
+            var $post = $(post);
 
-            var newcommentdiv = document.createElement('div');
-            newcommentdiv.setAttribute("class","comment");
-            newcommentdiv.setAttribute("id",value.commentid);
-            newcommentdiv.style.padding="10px";
-            newcommentdiv.style.borderTop="1px solid #eee";
+            var $comment = $("<div>").prop({"class":"comment","id":value.commentid}).css({padding:"10px",borderTop:"1px solid #eee"});
+            var $avatar = $("<img>").prop({"width":25,"src":"images/"+value.author+".jpg"}).css({display:"inline-block",borderRadius:"25px",marginRight:"5px",verticalAlign:"top"});
+            var $text = $("<p>").css({width:"85%",fontSize:"12px",display:"inline-block",margin:"0",verticalAlign:"middle"}).html(value.text)
 
-            var newavatar = document.createElement('img');
-            newavatar.setAttribute("width",25);
-            newavatar.style.display="inline-block";
-            newavatar.style.borderRadius="25px";
-            newavatar.style.marginRight="5px";
-            newavatar.style.verticalAlign="top";
-            newavatar.setAttribute("src","images/"+value.author+".jpg");
-
-            var newtext = document.createElement('p');
-            newtext.style.width="85%";
-            newtext.style.fontSize="12px";
-            newtext.style.display="inline-block";
-            newtext.style.margin="0";
-            newtext.style.verticalAlign="middle";
-            newtext.innerHTML=value.text;
-
-            post.appendChild(newcommentdiv);
-            newcommentdiv.appendChild(newavatar);
-            newcommentdiv.appendChild(newtext);
+            $post.append($comment.append($avatar).append($text));
         });
     }
 
