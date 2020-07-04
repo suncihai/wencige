@@ -5,7 +5,7 @@ $(document).ready(function(){
         {
           "content":"今天约好了和娇娇去某个drive through的动物园玩",
           "image":"images/diary/pic1.JPG",
-          "actor":""
+          "actor":"",
         },
         {
           "content":"之前和娇娇逛自然博物馆时，娇娇就说过很喜欢动物",
@@ -35,12 +35,12 @@ $(document).ready(function(){
         {
           "content":"【到啦～】",
           "image":"images/diary/pic2.JPG",
-          "actor":"images/diary/cihai_1.png"
+          "actor":"images/diary/cihai_1.png",
         },
         {
           "content":"【哇，到啦到啦~~】",
           "image":"images/diary/pic2.JPG",
-          "actor":"images/diary/wenhui_1.png"
+          "actor":"images/diary/wenhui_1.png",
         },
         {
           "content":"【看把你高兴的，这都还没看到动物呢】",
@@ -85,17 +85,20 @@ $(document).ready(function(){
         {
           "content":"【好想送它们礼物🎁啊！】",
           "image":"images/diary/pic4.JPG",
-          "actor":"images/diary/wenhui_1.png"
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-200"
         },
         {
           "content":"【你当成动森啦】",
           "image":"images/diary/pic4.JPG",
-          "actor":"images/diary/cihai_1.png"
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-200"
         },
         {
           "content":"【我想增加它们的好感度嘛，不可以啊？】",
           "image":"images/diary/pic4.JPG",
-          "actor":"images/diary/wenhui_1.png"
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-200"
         },
         {
           "content":"看着娇娇炽热的眼神，我下午去不远处的公园管理车那儿买了点胡萝卜🥕",
@@ -105,17 +108,20 @@ $(document).ready(function(){
         {
           "content":"【你看嘛，长颈鹿🦒都围过来了诺，它们最爱吃胡萝卜🥕了！】",
           "image":"images/diary/pic5.JPG",
-          "actor":"images/diary/wenhui_1.png"
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-180"
         },
         {
           "content":"【可能，它们不是冲着胡萝卜🥕来的，而是冲着好看的娇娇来的😊】",
           "image":"images/diary/pic5.JPG",
-          "actor":"images/diary/cihai_1.png"
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-180"
         },
         {
           "content":"娇娇听到后害羞地打了我一下。",
           "image":"images/diary/pic5.JPG",
-          "actor":"images/diary/cihai_1.png"
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-180"
         },
         {
           "content":"我注意到就在一旁的一只鸵鸟看着我们",
@@ -125,71 +131,105 @@ $(document).ready(function(){
         {
           "content":"【我以前学过鸟语的，你知道鸵鸟在说啥嘛？】",
           "image":"images/diary/pic6.JPG",
-          "actor":"images/diary/cihai_1.png"
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-200"
         },
         {
-          "content":"也是每次看到世贸大楼的时候，我就知道可以再掏出手机给宝宝发消息了~~",
-          "image":"images/diary/pic4.JPG",
-          "actor":""
+          "content":"【它在说：“我从来没见过这么厚脸皮的人”】",
+          "image":"images/diary/pic6.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-200"
         },
         {
-          "content":"于是我又掏出了手机，开始给宝宝发消息",
-          "image":"images/diary/pic4.JPG",
-          "actor":""
+          "content":"【哪有，它是在说：“你旁边的妹子真好看”】",
+          "image":"images/diary/pic6.JPG",
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-200"
         },
         {
-          "content":"--刚出地铁站（笑脸）--",
-          "image":"images/diary/pic4.JPG",
-          "actor":""
-        },
-        {
-          "content":"过了一小会儿，宝宝还没回复，应该是在忙吧，因为这个点是宝宝那里的9点左右，手机不在身边的概率也是挺高的",
-          "image":"images/diary/pic4.JPG",
-          "actor":""
-        },
-        {
-          "content":"于是我继续往地下通道走去",
-          "image":"images/diary/pic4.JPG",
-          "actor":""
-        },
-        {
-          "content":"这里的地铁站是刚建成的，所以特别新，地上的建筑是著名的设计大师的作品，从外面看仿佛就是眼睫毛",
-          "image":"images/diary/pic5.JPG",
-          "actor":""
-        },
-        {
-          "content":"每次经过这里都会不觉得抬头看两眼天窗",
-          "image":"images/diary/pic5.JPG",
-          "actor":""
-        },
-        {
-          "content":"这个地铁站是个大站，每天上下班人流量特别大，让宝宝感受一下吧~~",
-          "image":"",
-          "actor":""
-        },
-        {
-          "content":"穿过人流，乘着电梯进入办公大楼，就来到了中庭",
+          "content":"鸵鸟好像很通人性，配合着我的解释，拍打着翅膀，咕咕咕叫了好几声",
           "image":"images/diary/pic6.JPG",
           "actor":""
         },
         {
-          "content":"【希望啥时可以带宝宝来这里看一下呢】",
-          "image":"images/diary/pic6.JPG",
-          "actor":"images/diary/per3.png"
-        },
-        {
-          "content":"【真的好想宝宝呢】",
-          "image":"images/diary/pic6.JPG",
-          "actor":"images/diary/per3.png"
-        },
-        {
-          "content":"我看着远处一对有说有笑的情侣，喃喃自语道。",
+          "content":"看到它这么给我面子，俗话说：投之以桃，报之以李。我给它扔了根玉米🌽",
           "image":"images/diary/pic6.JPG",
           "actor":""
         },
         {
-          "content":"上了电梯，就来到了办公室",
+          "content":"没想到，鸵鸟张口说话了：“那个，只拿你礼物🎁也是不好的，这487块铃钱💰你拿去吧”",
+          "image":"images/diary/pic6.JPG",
+          "actor":""
+        },
+        {
+          "content":"我惊呆了，难道我真的会鸟语了？😱",
+          "image":"images/diary/pic6.JPG",
+          "actor":""
+        },
+        {
+          "content":"【娇娇！你刚才听到鸵鸟说话了嘛？？？】",
+          "image":"images/diary/pic6.JPG",
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-200"
+        },
+        {
+          "content":"【没啊，它就咕咕叫了几声啊】",
+          "image":"images/diary/pic6.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-200"
+        },
+        {
+          "content":"哎？我真的会鸟语了吗？",
+          "image":"images/diary/pic6.JPG",
+          "actor":""
+        },
+        {
+          "content":"再往前一点，我们看到了一群大象🐘",
           "image":"images/diary/pic7.JPG",
+          "actor":""
+        },
+        {
+          "content":"可能是太热了，大象们都不怎么动，吹口哨也没啥反应",
+          "image":"images/diary/pic7.JPG",
+          "actor":""
+        },
+        {
+          "content":"来到了一片小池塘",
+          "image":"images/diary/pic8.JPG",
+          "actor":""
+        },
+        {
+          "content":"好多麋鹿🦌在池塘里洗澡🛀",
+          "image":"images/diary/pic8.JPG",
+          "actor":""
+        },
+        {
+          "content":"【娇娇你觉得鹿🦌一天要洗几次澡🛀啊？】",
+          "image":"images/diary/pic8.JPG",
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-200"
+        },
+        {
+          "content":"【三次吧】",
+          "image":"images/diary/pic8.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-200"
+        },
+        {
+          "content":"【为啥啊？】没想到我随口乱问的，娇娇不假思索地回答了",
+          "image":"images/diary/pic8.JPG",
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-200"
+        },
+        {
+          "content":"【因为我只知道三鹿啊】",
+          "image":"images/diary/pic8.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-200"
+        },
+        {
+          "content":"这个理由我无法反驳😂",
+          "image":"images/diary/pic8.JPG",
           "actor":""
         },
         {
@@ -332,7 +372,8 @@ $(document).ready(function(){
 
      function loadcontent(currentstep){
         $("#detail_text").fadeOut(500,function(){
-        	$("#detail_text").html(content[currentstep]["content"]);
+          $("#detail_text").html(content[currentstep]["content"]);
+          $("#person_image").removeClass();
         	$(".example-image").prop("src",content[currentstep]["image"]);
         	$(".example-image-link").prop("href",content[currentstep]["image"]);
         	if(content[currentstep]["image"]==""){
@@ -362,7 +403,7 @@ $(document).ready(function(){
 			            .write(function(){theater.play();});
 		        },10000);
         	}
-        	$("#person_image").prop("src",content[currentstep]["actor"]);
+          $("#person_image").prop("src",content[currentstep]["actor"]).addClass(content[currentstep]["actor-height"]);
         	$("#detail_text").fadeIn(500);
         });
 

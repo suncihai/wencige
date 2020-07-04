@@ -246,6 +246,14 @@ article h3{padding: 0;}
   text-decoration: underline;
 }
 
+#person_image {
+  position:absolute;
+  bottom:9px;
+  left:50%;
+  transform:translateX(-50%);
+  max-height: 350px;
+}
+
 @-webkit-keyframes slide-left {
      from { left: 150px; }
      to   { left: 0; }
@@ -284,5 +292,11 @@ article h3{padding: 0;}
   }
   #choose_character>p{
     font-size:16px;
+  }
+  #person_image.h-180 {
+    max-height: 180px;
+  }
+  #person_image.h-200 {
+    max-height: 200px;
   }
 }
