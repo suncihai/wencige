@@ -161,7 +161,30 @@
           </div>
         </div>
       </div>
-     </div>
+    </div>
+
+    <div class="modal fade" id="editpostmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document" style="margin-top:15%;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="display:inline;color:#C83935;font-weight:bold;">编辑帖子</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="text-align:center;position:relative;">
+	              <div style="width:70%;margin:20px auto;">
+	                  <label for="posttext" style="display:block;text-align:left;">变更内容</label>
+	                  <textarea id="edit_post_text" name="edit_post_text" style="width:100%;resize:none;height:100px;"></textarea>
+	              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal" id="editpost" style="background:#C83935">提交编辑</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
      <div class="modal fade" id="newcommentmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document" style="margin-top:15%;">

@@ -60,11 +60,13 @@ $(document).ready(function($) {
             var $img = $("<img>").prop({"class":"example-image","src":value.imageUrl});
             var $div1 = $("<div>").prop("class","content-item");
             var $h3 = $("<h3>").prop("class","title-item");
-            var $tag1 = $("<h5>").prop({"class":"title-text"}).html(value.title);
+            var $tag1 = $("<h5>").attr({"class":"title-text"}).html(value.title);
             var $div2 = $("<div>").prop("class","time").html(value.postDate);
             var $div3 = $("<div>").prop("class","bottom-item");
-            var $spanleft = $("<span>").attr({"class":"user f-left btn btn-comment","data-toggle":"modal","data-target":"#newcommentmodal"});
+            var $spancomment = $("<span>").attr({"class":"user f-left btn btn-comment","data-toggle":"modal","data-target":"#newcommentmodal"});
+            var $spanedit = $("<span>").attr({"class":"user f-left btn btn-comment","data-toggle":"modal","data-target":"#editpostmodal"});
             var $commention = $("<i>").prop("class","fa fa-comment-o").css({fontSize:"x-large",marginTop:"5px"});
+            var $edit = $("<i>").prop("class","fa fa-pencil").css({fontSize:"x-large",marginTop:"5px"});
             var $span = $("<span>").prop("class","user f-right").html("发帖人 ");
 
             var $user = $("<span>");
@@ -82,7 +84,7 @@ $(document).ready(function($) {
             $tag.append($img);
             $div1.append($h3).append($div2).append($text);
             $h3.append($tag1);
-            $div3.append($spanleft.append($commention)).append($span);
+            $div3.append($spancomment.append($commention)).append($spanedit.append($edit)).append($span);
             $span.append($user).append($avatar);
         });
 
@@ -198,7 +200,7 @@ $(document).ready(function($) {
         var text = $("#post_text").val();
         var author = localStorage.getItem("user");
         var imageUrl=""+uploadfilename;
-        console.log("imageUrl", imageUrl);
+
         if (uagent.search("iphone") > -1){
             $.ajax({    
                 type:"POST",
@@ -216,6 +218,35 @@ $(document).ready(function($) {
                 url:"insertdata.php",             
                 dataType: 'json',
                 data:{postId:postId,postDate:today,title:title,text:text,imageUrl:imageUrl,author:author},               
+                success: function(response){
+                    $("form").submit();
+                }
+            });
+        }
+    });
+
+    $("#editpost").click(function(){
+        var text = $("#edit_post_text").val();
+        var postDate = currenctpostid.split("-");
+        var date = postDate[0]+"年"+postDate[1]+"月"+postDate[2]+"日";
+
+        if (uagent.search("iphone") > -1){
+            $.ajax({    
+                type:"POST",
+                async:false,
+                url:"updatedata.php",             
+                dataType: 'json',
+                data:{postId:currenctpostid,postDate:date,text:text,title:currentTitle},               
+                success: function(response){   
+                    $("form").submit();             
+                }
+            });
+        }else{
+            $.ajax({    
+                type:"POST",
+                url:"updatedata.php",             
+                dataType: 'json',
+                data:{postId:currenctpostid,postDate:date,text:text,title:currentTitle},               
                 success: function(response){
                     $("form").submit();
                 }
