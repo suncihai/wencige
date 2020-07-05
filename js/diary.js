@@ -86,19 +86,19 @@ $(document).ready(function(){
           "content":"【好想送它们礼物🎁啊！】",
           "image":"images/diary/pic4.JPG",
           "actor":"images/diary/wenhui_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"【你当成动森啦】",
           "image":"images/diary/pic4.JPG",
           "actor":"images/diary/cihai_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"【我想增加它们的好感度嘛，不可以啊？】",
           "image":"images/diary/pic4.JPG",
           "actor":"images/diary/wenhui_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"看着娇娇炽热的眼神，我下午去不远处的公园管理车那儿买了点胡萝卜🥕",
@@ -132,19 +132,19 @@ $(document).ready(function(){
           "content":"【我以前学过鸟语的，你知道鸵鸟在说啥嘛？】",
           "image":"images/diary/pic6.JPG",
           "actor":"images/diary/cihai_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"【它在说：“我从来没见过这么厚脸皮的人”】",
           "image":"images/diary/pic6.JPG",
           "actor":"images/diary/wenhui_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"【哪有，它是在说：“你旁边的妹子真好看”】",
           "image":"images/diary/pic6.JPG",
           "actor":"images/diary/cihai_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"鸵鸟好像很通人性，配合着我的解释，拍打着翅膀，咕咕咕叫了好几声",
@@ -170,13 +170,13 @@ $(document).ready(function(){
           "content":"【娇娇！你刚才听到鸵鸟说话了嘛？？？】",
           "image":"images/diary/pic6.JPG",
           "actor":"images/diary/cihai_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"【没啊，它就咕咕叫了几声啊】",
           "image":"images/diary/pic6.JPG",
           "actor":"images/diary/wenhui_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"哎？我真的会鸟语了吗？",
@@ -207,25 +207,25 @@ $(document).ready(function(){
           "content":"【娇娇你觉得鹿🦌一天要洗几次澡🛀啊？】",
           "image":"images/diary/pic8.JPG",
           "actor":"images/diary/cihai_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"【三次吧】",
           "image":"images/diary/pic8.JPG",
           "actor":"images/diary/wenhui_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"【为啥啊？】没想到我随口乱问的，娇娇不假思索地回答了",
           "image":"images/diary/pic8.JPG",
           "actor":"images/diary/cihai_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"【因为我只知道三鹿啊】",
           "image":"images/diary/pic8.JPG",
           "actor":"images/diary/wenhui_1.png",
-          "actor-height":"h-200"
+          "actor-height":"h-250"
         },
         {
           "content":"这个理由我无法反驳😂",
@@ -233,125 +233,389 @@ $(document).ready(function(){
           "actor":""
         },
         {
-          "content":"今天看来我第二个到啊，第一个开门的估计去倒水去了",
-          "image":"images/diary/pic7.JPG",
-          "actor":""
-        },
-        {
-          "content":"又要开始工作啦~~",
-          "image":"images/diary/pic7.JPG",
-          "actor":""
-        },
-        {
-          "content":"这就是我的座位，因为最近一直比较忙，没有好好收拾过",
-          "image":"images/diary/pic8.JPG",
-          "actor":""
-        },
-        {
-          "content":"桌上放着一个皮卡丘，我经常工作累的时候看一眼，消除下疲劳",
-          "image":"images/diary/pic8.JPG",
-          "actor":""
-        },
-        {
-          "content":"同事们陆陆续续地来了",
-          "image":"images/diary/pic8.JPG",
-          "actor":""
-        },
-        {
-          "content":"【早啊~~】",
-          "image":"images/diary/pic8.JPG",
-          "actor":"images/diary/per1.png"
-        },
-        {
-          "content":"开始专心上班吧~",
-          "image":"images/diary/pic8.JPG",
-          "actor":""
-        },
-        {
-          "content":"就这样，忙碌的一天开始了",
-          "image":"images/diary/pic8.JPG",
-          "actor":""
-        },
-        {
-          "content":"时间过得很快，一眨眼的功夫就到了下班时间",
-          "image":"images/diary/pic8.JPG",
-          "actor":""
-        },
-        {
-          "content":"和同事们陆续下了电梯",
+          "content":"在树林的深处，看到了一头会吐舌头的熊🐻",
           "image":"images/diary/pic9.JPG",
           "actor":""
         },
         {
-          "content":"【拜拜啊，明天见啦~~】",
-          "image":"images/diary/pic9.JPG",
-          "actor":"images/diary/per3.png"
-        },
-        {
-          "content":"有些同事会先去其他地方吃个饭，就和他们先道了个别",
+          "content":"在给它拍照的时候，它居然还主动朝相机做了个鬼脸😜",
           "image":"images/diary/pic9.JPG",
           "actor":""
         },
         {
-          "content":"再来到了中庭，见到了傍晚的景色，也是挺不错的",
+          "content":"现在的动物们真的是越来越聪明了，都快成精了",
+          "image":"images/diary/pic9.JPG",
+          "actor":""
+        },
+        {
+          "content":"经过山羊🐐领地的时候，娇娇吵着要摸摸山羊",
           "image":"images/diary/pic10.JPG",
           "actor":""
         },
         {
-          "content":"顺路的同事招呼着一起快走，去赶地铁",
+          "content":"本来想找找看有没有羊驼🦙的，娇娇最爱羊驼了，以前说想养一只羊驼来着",
+          "image":"images/diary/pic10.JPG",
+          "actor":""
+        },
+        {
+          "content":"没找到羊驼，就只能委屈山羊冒充一下了，于是留下了这张照片",
+          "image":"images/diary/pic10.JPG",
+          "actor":""
+        },
+        {
+          "content":"和山羊大哥告别后，差不多也到了吃午饭的时间",
           "image":"images/diary/pic11.JPG",
           "actor":""
         },
         {
-          "content":"【你们先走吧，我慢慢走，明儿见啦~】",
-          "image":"images/diary/pic11.JPG",
-          "actor":"images/diary/per3.png"
-        },
-        {
-          "content":"有时我不喜欢走那么快，就喜欢享受慢慢走一边欣赏周围的景物，也可以放松一下心情",
+          "content":"动物园里可以吃的店不多，所以我们就去了Domino披萨🍕。",
           "image":"images/diary/pic11.JPG",
           "actor":""
         },
         {
-          "content":"来到了宽敞的地铁站",
+          "content":"我让娇娇先去找位子，我去点了几张披萨🍕。",
+          "image":"images/diary/pic11.JPG",
+          "actor":""
+        },
+        {
+          "content":"顺便点了一张巧克力松饼",
+          "image":"images/diary/pic11.JPG",
+          "actor":""
+        },
+        {
+          "content":"【哇，巧克力松饼哎，我最爱吃了！】",
           "image":"images/diary/pic12.JPG",
           "actor":""
         },
         {
-          "content":"突然感到一股很亲切的气息",
+          "content":"【那我们互喂吃吧】",
           "image":"images/diary/pic12.JPG",
           "actor":""
         },
         {
-          "content":"在远处，仿佛看到了一个熟悉的身影",
+          "content":"【你好讨厌！】",
           "image":"images/diary/pic12.JPG",
           "actor":""
         },
         {
-          "content":"那个我一直梦里都想见的人",
+          "content":"【打是亲，骂--是爱！】",
           "image":"images/diary/pic12.JPG",
-          "actor":"images/diary/per4.png"
+          "actor":""
         },
         {
-          "content":"【宝宝！！！】",
+          "content":"我故意把“骂”字拖得老长老长",
           "image":"images/diary/pic12.JPG",
-          "actor":"images/diary/per3.png"
+          "actor":""
         },
         {
-          "content":"我激动地叫了起来",
+          "content":"然后等待我的是，如同娇娇一直发的“打你”表情包里挥向可爱小猪头的雨点般似的拳头👊",
           "image":"images/diary/pic12.JPG",
-          "actor":"images/diary/per3.png"
+          "actor":""
         },
         {
-          "content":"【乖乖】",
-          "image":"images/diary/pic12.JPG",
-          "actor":"images/diary/per4.png"
+          "content":"吃完后，接着我们又去了不少其他动物园区",
+          "image":"images/diary/pic13.JPG",
+          "actor":""
         },
         {
-          "content":"【我爱你】",
-          "image":"images/diary/pic12.JPG",
-          "actor":"images/diary/per4.png"
-        }
+          "content":"比如火烈鸟🦩挺好看的",
+          "image":"images/diary/pic13.JPG",
+          "actor":""
+        },
+        {
+          "content":"【你动森里的雌雄火烈鸟像凑齐了吗？】",
+          "image":"images/diary/pic13.JPG",
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-180"
+        },
+        {
+          "content":"【你又没送我咯，我哪凑得齐勒】",
+          "image":"images/diary/pic13.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-180"
+        },
+        {
+          "content":"【我记得送过你的啊😳】",
+          "image":"images/diary/pic13.JPG",
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-180"
+        },
+        {
+          "content":"【那你回去再邮寄新的给我😊】",
+          "image":"images/diary/pic13.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-180"
+        },
+        {
+          "content":"一旁，我们看到了老虎🐯",
+          "image":"images/diary/pic14.JPG",
+          "actor":""
+        },
+        {
+          "content":"【啊啊啊啊啊啊！小虎！！！】",
+          "image":"images/diary/pic14.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-200"
+        },
+        {
+          "content":"娇娇现在看到老虎就会把它当作小虎",
+          "image":"images/diary/pic14.JPG",
+          "actor":""
+        },
+        {
+          "content":"虽然小虎其实是一只猫，但在娇娇心中的位置还是挺高的",
+          "image":"images/diary/pic14.JPG",
+          "actor":""
+        },
+        {
+          "content":"到了休息区，我看到一条狗🐶正看着我",
+          "image":"images/diary/pic15.JPG",
+          "actor":""
+        },
+        {
+          "content":"狗居然说话了：【伙计，你要我帮你忙吗？】",
+          "image":"images/diary/pic15.JPG",
+          "actor":""
+        },
+        {
+          "content":"刚才鸵鸟的事情已经让我震惊了，现在狗又说话了，我不可思议地张打了嘴巴。",
+          "image":"images/diary/pic15.JPG",
+          "actor":""
+        },
+        {
+          "content":"狗又说：【我和你妹子说几句好话，你给我买个肉包子，deal？】",
+          "image":"images/diary/pic15.JPG",
+          "actor":""
+        },
+        {
+          "content":"虽然我还没摸清狗为啥也会说话的情况，但这个交易对我不坏，哈哈哈。我二话不说就去买了个肉包子给了狗吃",
+          "image":"images/diary/pic15.JPG",
+          "actor":""
+        },
+        {
+          "content":"后来，狗实现了它的诺言",
+          "image":"images/diary/pic16.JPG",
+          "actor":""
+        },
+        {
+          "content":"俗话说，拿人的手短，吃人的嘴软",
+          "image":"images/diary/pic16.JPG",
+          "actor":""
+        },
+        {
+          "content":"狗作为动物里忠良诚信的代表，我一向很喜欢，这也是为啥我给它买肉包子",
+          "image":"images/diary/pic16.JPG",
+          "actor":""
+        },
+        {
+          "content":"狗对娇娇说了一些悄悄话",
+          "image":"images/diary/pic16.JPG",
+          "actor":""
+        },
+        {
+          "content":"本来我也不抱期望的，娇娇不一定能听得懂，但娇娇居然脸一红，害羞😳了，听完就溜溜溜跑开了",
+          "image":"images/diary/pic16.JPG",
+          "actor":""
+        },
+        {
+          "content":"难道我遇到狗仙了？那种专门变成狗其实是仙人的？",
+          "image":"images/diary/pic16.JPG",
+          "actor":""
+        },
+        {
+          "content":"告别了“狗仙”，我们来到了休息区，我想上个洗手间🚻，然后让娇娇等我一下",
+          "image":"images/diary/pic17.JPG",
+          "actor":""
+        },
+        {
+          "content":"娇娇就跑到旁边的草坪上去和脾气好的鹿🦌啊羊🐑啊去玩了",
+          "image":"images/diary/pic17.JPG",
+          "actor":""
+        },
+        {
+          "content":"在我上洗手间的时候，突然不知道哪儿窜出来一条恶狗！",
+          "image":"images/diary/pic18.JPG",
+          "actor":""
+        },
+        {
+          "content":"恶狗不知道是着了什么魔，飞快地向娇娇跑去！",
+          "image":"images/diary/pic18.JPG",
+          "actor":""
+        },
+        {
+          "content":"娇娇傻眼了，呆站在原地",
+          "image":"images/diary/pic18.JPG",
+          "actor":""
+        },
+        {
+          "content":"说时迟，那时快，我在兜里随手一抓，居然抽出了打狗棒😳",
+          "image":"images/diary/pic19.JPG",
+          "actor":""
+        },
+        {
+          "content":"感觉天助我也，我立马提着打狗棒向恶狗冲过去",
+          "image":"images/diary/pic19.JPG",
+          "actor":""
+        },
+        {
+          "content":"果然应证了那句话：工欲善其事，必先利其器",
+          "image":"images/diary/pic20.JPG",
+          "actor":""
+        },
+        {
+          "content":"恶狗惨叫一声，飞向了天空，变成了一颗星星",
+          "image":"images/diary/pic20.JPG",
+          "actor":""
+        },
+        {
+          "content":"【没事啦，恶狗打飞了】",
+          "image":"images/diary/pic20.JPG",
+          "actor":"images/diary/cihai_1.png",
+          "actor-height":"h-250"
+        },
+        {
+          "content":"【呜哇啊哇，吓死了啊】",
+          "image":"images/diary/pic20.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-250"
+        },
+        {
+          "content":"娇娇扑到了我的怀里，显然是受了不小的惊吓",
+          "image":"images/diary/pic20.JPG",
+          "actor":""
+        },
+        {
+          "content":"为了减轻娇娇的惊吓，解铃还须系铃人，我们去了可爱狗狗的区域，找了条温顺的狗狗，陪娇娇玩了会儿",
+          "image":"images/diary/pic21.JPG",
+          "actor":""
+        },
+        {
+          "content":"温顺的狗还是挺治愈的，笑容又浮现在了娇娇脸上",
+          "image":"images/diary/pic21.JPG",
+          "actor":""
+        },
+        {
+          "content":"差不多逛完了，也接近了日落时分🌄",
+          "image":"images/diary/pic22.JPG",
+          "actor":""
+        },
+        {
+          "content":"不知不觉来到了海边",
+          "image":"images/diary/pic22.JPG",
+          "actor":""
+        },
+        {
+          "content":"这可能是今年看到的第一个完整的夕阳吧",
+          "image":"images/diary/pic22.JPG",
+          "actor":""
+        },
+        {
+          "content":"我看看一旁的娇娇，人美如画",
+          "image":"images/diary/pic22.JPG",
+          "actor":""
+        },
+        {
+          "content":"江山如此多“娇”，引无数英雄竟折腰",
+          "image":"images/diary/pic22.JPG",
+          "actor":""
+        },
+        {
+          "content":"我在兜里摸了摸，居然摸到了玫瑰🌹",
+          "image":"images/diary/pic22.JPG",
+          "actor":""
+        },
+        {
+          "content":"【娇娇啊】",
+          "image":"images/diary/pic22.JPG",
+          "actor":"images/diary/cihai_2.png",
+          "actor-height":"h-220"
+        },
+        {
+          "content":"【嗯？啊，你哪儿来的玫瑰🌹啊，还叼着】",
+          "image":"images/diary/pic22.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-220"
+        },
+        {
+          "content":"看到我叼着玫瑰花，娇娇脸又羞红了，比夕阳🌇还要红",
+          "image":"images/diary/pic22.JPG",
+          "actor":"images/diary/cihai_2.png",
+          "actor-height":"h-220"
+        },
+        {
+          "content":"【这么好的氛围，我们比个心吧】",
+          "image":"images/diary/pic22.JPG",
+          "actor":"images/diary/cihai_2.png",
+          "actor-height":"h-220"
+        },
+        {
+          "content":"【噢😯】",
+          "image":"images/diary/pic22.JPG",
+          "actor":"images/diary/wenhui_1.png",
+          "actor-height":"h-220"
+        },
+        {
+          "content":"娇娇害羞😳地蚊子叫似地噢了一声",
+          "image":"images/diary/pic22.JPG",
+          "actor":""
+        },
+        {
+          "content":"走向了海边，我们手牵着手",
+          "image":"images/diary/pic23.JPG",
+          "actor":""
+        },
+        {
+          "content":"比了大大的一个爱心💗",
+          "image":"images/diary/pic23.JPG",
+          "actor":""
+        },
+        {
+          "content":"【娇娇，我。。。】",
+          "image":"images/diary/pic23.JPG",
+          "actor":"images/diary/cihai_2.png",
+          "actor-height":"h-220"
+        },
+        {
+          "content":"【那个。。。】",
+          "image":"images/diary/pic24.JPG",
+          "actor":"images/diary/cihai_2.png",
+          "actor-height":"h-220"
+        },
+        {
+          "content":"滴滴滴滴",
+          "image":"images/diary/pic25.JPG",
+          "actor":""
+        },
+        {
+          "content":"闹钟声把我吵醒了",
+          "image":"images/diary/pic26.JPG",
+          "actor":""
+        },
+        {
+          "content":"原来我睡着了，刚才是梦吗。。。",
+          "image":"images/diary/pic26.JPG",
+          "actor":""
+        },
+        {
+          "content":"难怪我能听懂鸵鸟的话，还能和狗说话，还有打狗棒",
+          "image":"images/diary/pic26.JPG",
+          "actor":""
+        },
+        {
+          "content":"看着消息，原来我是做梦做到娇娇的梦里去了啊，所以遇到恶狗了呢",
+          "image":"images/diary/pic26.JPG",
+          "actor":""
+        },
+        {
+          "content":"哈哈，还是挺回味的一个梦呢，就是最后那段我想说啥来着？",
+          "image":"images/diary/pic26.JPG",
+          "actor":""
+        },
+        {
+          "content":"可能是一个留白吧",
+          "image":"images/diary/pic26.JPG",
+          "actor":""
+        },
      ];
 
      $("#next-step").click(function(){
@@ -381,12 +645,18 @@ $(document).ready(function(){
         	}else{
         		$("video").remove();
         	}
-        	if((content[currentstep]["image"]=="images/diary/pic12.JPG")&&musicoff){
-        		$("#panel").append($('<audio autoplay loop><source src="music/MyHeartWillGoOn.mp3" type="audio/mp3"></audio>'));
+        	if((content[currentstep]["image"]=="images/diary/pic22.JPG")&&musicoff){
+        		$("#panel").append($('<div id="tatanic"><audio autoplay loop><source src="music/MyHeartWillGoOn.mp3" type="audio/mp3"></audio></div>'));
         		musicoff =false;
-        	}
+          }
+          if((content[currentstep]["image"]=="images/diary/pic25.JPG")){
+            $('#tatanic').empty();
+            $("#panel").append($('<div id="iphone_alarm"><audio autoplay loop><source src="music/iphone_alarm.mp3" type="audio/mp3"></audio></div>'));
+          }
         	if(step==(content.length-1)){
-        		$("#board_inner").css("opacity",0);
+            $("#board_inner").css("opacity",0);
+            $('#iphone_alarm').empty();
+            $("#panel").append($('<div id="tatanic"><audio autoplay loop><source src="music/MyHeartWillGoOn.mp3" type="audio/mp3"></audio></div>'));
         		setTimeout(function(){
         			var uagent = navigator.userAgent.toLowerCase();
                         
@@ -399,7 +669,7 @@ $(document).ready(function(){
                     var theater = new TheaterJS();
 		            theater.describe("wording",0.2,"#wording");
 		            theater
-			            .write("wording:"+"谢谢宝宝耐心地看到这里呢，原本这个是之前提到过的一篇特殊的日记，是想让宝宝知道我每天的日常生活，最后的结尾宝宝的出现是幻想出来的场景，是我对和宝宝生活的憧憬。现在突然发生这件事情，设身处地换位思考下宝宝现在的心境，宝宝应该是最需要鼓励的时刻，我想说，宝宝要加油，没有什么过不去的坎，人生就是经历各种各样的挫折。宝宝最可贵的精神就是不折不饶，敢于直面最危险的困难。阿姨现在也是最需要宝宝鼓励和安慰的时刻，宝宝加油，宝宝加油，宝宝加油！！！！！！！<br><br>乖乖亲笔")
+			            .write("wording:"+"谢谢娇娇耐心地看到这里呢，花了不少时间写剧本，结合之前娇娇提到的梦境，便完成了这次精彩的“虚拟约会”。我说精彩不过分吧？哈哈哈。娇娇喜欢就好了。<br><br>怎么说呢，内心有点无奈，毕竟疫情这么严重。坐飞机是肯定不可能的。所以之前就想着趁还能work from home的时候开车来找娇娇。现在是也在考虑这个办法，因为美国的疫情控制不住已成定局，如果等到美国疫情控制住，至少不会是现在，而是很遥远的未来，然而生活还得继续。暂停键不能一直摁着，毛毛的年纪也大了，压力也是很大的呢。所以，娇娇再一起想想看？之后的事情也不会容易的呢，要一起努力克服才行的呢。<br><br>毛毛亲笔")
 			            .write(function(){theater.play();});
 		        },10000);
         	}

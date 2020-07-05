@@ -56,7 +56,7 @@ $(document).ready(function($) {
             var $div = $("<div>").prop({"class":"item","id":value.postid});
             lastid = value.postid;
 
-            var $tag = $("<a>").prop({"class":"example-image-link","href":value.imageUrl,"data-lightbox":"example-set","data-title":"Click arrows to switch pictures"});
+            var $tag = $("<a>").attr({"class":"example-image-link","href":value.imageUrl,"data-lightbox":"example-set","data-title":"Click arrows to switch pictures"});
             var $img = $("<img>").prop({"class":"example-image","src":value.imageUrl});
             var $div1 = $("<div>").prop("class","content-item");
             var $h3 = $("<h3>").prop("class","title-item");

@@ -299,4 +299,10 @@ article h3{padding: 0;}
   #person_image.h-200 {
     max-height: 200px;
   }
+  #person_image.h-220 {
+    max-height: 220px;
+  }
+  #person_image.h-250 {
+    max-height: 250px;
+  }
 }
