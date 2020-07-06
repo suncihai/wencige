@@ -667,7 +667,7 @@ $(document).ready(function(){
                         $("#board").append($('<div id="wording" style="position:absolute;width:80%;font-size:24px;font-weight:bold;left:50%;top:30%;transform:translateX(-50%);translateY(-70%);"></div>'));
                     }
                     var theater = new TheaterJS();
-		            theater.describe("wording",0.2,"#wording");
+		            theater.describe("wording",0.5,"#wording");
 		            theater
 			            .write("wording:"+"谢谢娇娇耐心地看到这里呢，花了不少时间写剧本，结合之前娇娇提到的梦境，便完成了这次精彩的“虚拟约会”。我说精彩不过分吧？哈哈哈。娇娇喜欢就好了。<br><br>怎么说呢，内心有点无奈，毕竟疫情这么严重。坐飞机是肯定不可能的。所以之前就想着趁还能work from home的时候开车来找娇娇。现在是也在考虑这个办法，因为美国的疫情控制不住已成定局，如果等到美国疫情控制住，至少不会是现在，而是很遥远的未来，然而生活还得继续。暂停键不能一直摁着，毛毛的年纪也大了，压力也是很大的呢。所以，娇娇再一起想想看？之后的事情也不会容易的呢，要一起努力克服才行的呢。<br><br>毛毛亲笔")
 			            .write(function(){theater.play();});
