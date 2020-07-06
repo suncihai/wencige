@@ -632,31 +632,31 @@ $(document).ready(function(){
          }
      });
      
-     var musicoff = true; 
+     var titanic = document.getElementById('titanic');
+     var iphone_alarm = document.getElementById('iphone_alarm')
+
 
      function loadcontent(currentstep){
+        if((content[currentstep]["image"]=="images/diary/pic22.JPG")){
+          titanic.play();
+        }
+        if((content[currentstep]["image"]=="images/diary/pic25.JPG")){
+          titanic.pause();
+          iphone_alarm.play();
+        }
+        if(step==(content.length-1)){
+          iphone_alarm.pause();
+          titanic.load();
+          titanic.play();
+        }
         $("#detail_text").fadeOut(500,function(){
           $("#detail_text").html(content[currentstep]["content"]);
           $("#person_image").removeClass();
         	$(".example-image").prop("src",content[currentstep]["image"]);
-        	$(".example-image-link").prop("href",content[currentstep]["image"]);
-        	if(content[currentstep]["image"]==""){
-        		$("#panel").append($('<video width="100%" autoplay><source src="images/diary/movie.mp4" type="video/mp4"></video>'));
-        	}else{
-        		$("video").remove();
-        	}
-        	if((content[currentstep]["image"]=="images/diary/pic22.JPG")&&musicoff){
-        		$("#panel").append($('<div id="tatanic"><audio autoplay loop><source src="music/MyHeartWillGoOn.mp3" type="audio/mp3"></audio></div>'));
-        		musicoff =false;
-          }
-          if((content[currentstep]["image"]=="images/diary/pic25.JPG")){
-            $('#tatanic').empty();
-            $("#panel").append($('<div id="iphone_alarm"><audio autoplay loop><source src="music/iphone_alarm.mp3" type="audio/mp3"></audio></div>'));
-          }
+          $(".example-image-link").prop("href",content[currentstep]["image"]);
+
         	if(step==(content.length-1)){
             $("#board_inner").css("opacity",0);
-            $('#iphone_alarm').empty();
-            $("#panel").append($('<div id="tatanic"><audio autoplay loop><source src="music/MyHeartWillGoOn.mp3" type="audio/mp3"></audio></div>'));
         		setTimeout(function(){
         			var uagent = navigator.userAgent.toLowerCase();
                         
@@ -676,6 +676,6 @@ $(document).ready(function(){
           $("#person_image").prop("src",content[currentstep]["actor"]).addClass(content[currentstep]["actor-height"]);
         	$("#detail_text").fadeIn(500);
         });
-
+        
      }
 });

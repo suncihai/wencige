@@ -43,8 +43,11 @@
 			<center><article>
 			    <div id="board" style="position:relative;">
 			        <div id="board_inner" style="transition:ease-out 10s;">
-					    <div id="panel" style="position:relative;text-align:center;background:black;"><img src="" id="person_image"/>
-						<a class="example-image-link" href="images/diary/pic1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" style="max-height:450px;" src="images/diary/pic1.JPG" alt=""/></a>
+						<div id="panel" style="position:relative;text-align:center;background:black;">
+							<img src="" id="person_image"/>
+							<a class="example-image-link" href="images/diary/pic1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+								<img class="example-image" style="max-height:450px;" src="images/diary/pic1.JPG" alt=""/>
+							</a>
 						</div>
 						<div class="content-item">
 						    <div style="display:flex;justify-content:space-between;"><a id="previous-step" href="javascript:;" class="btn btn-more"><i class="fa fa-long-arrow-left"></i></a><a id="next-step" href="javascript:;" class="btn btn-more"><i class="fa fa-long-arrow-right"></i></a></div>
@@ -63,6 +66,8 @@
 			</article></center>
 		</div>
 	</div>
+	<audio id="titanic" loop><source src="music/MyHeartWillGoOn.mp3" type="audio/mp3"></audio>
+	<audio id="iphone_alarm" loop><source src="music/iphone_alarm.mp3" type="audio/mp3"></audio>
 	
     <!-- Once the page is loaded, initialized the plugin. -->
     <script type="text/javascript" src="js/jquery-2.1.1.js" ></script>	
