@@ -637,6 +637,11 @@ $(document).ready(function(){
 
 
      function loadcontent(currentstep){
+        if(content[currentstep]["actor"]==="") {
+            $("#person_image").hide();
+        } else {
+          $("#person_image").show();
+        }
         if((content[currentstep]["image"]=="images/diary/pic22.JPG")){
           titanic.play();
         }
