@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 #cssmenu {
-  background:#C83935;
   margin: 0;
   width: auto;
   padding: 0;
@@ -9,7 +8,7 @@
   position: relative;
   font-family: 'PT Sans', sans-serif;
   z-index: 9999;
-  box-shadow: 0px 4px 15px -5px #555;
+  box-shadow: 0px 4px 15px -5px #ccc;
   margin-bottom: 30px;
 }
 #cssmenu ul {
@@ -190,7 +189,7 @@
   top: 21px;
 }
 #cssmenu > ul > li > a {
-  color: #ffffff;
+  color: #898989;
   padding: 15px 20px;
   font-weight: 700;
   letter-spacing: 1px;

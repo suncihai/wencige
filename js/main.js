@@ -127,7 +127,7 @@ $(document).ready(function($) {
     
     $(".avatars").hover(function(){
        $(this).find("p").css("opacity",1);
-       $(this).find("img").css("box-shadow","0 0 20px #C83935");
+       $(this).find("img").css("box-shadow","0 0 20px #ccc");
     },function(){
        $(this).find("p").css("opacity",0);
        $(this).find("img").css("box-shadow","none");

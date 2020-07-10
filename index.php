@@ -116,14 +116,14 @@
 	<div class="header">
 		<div id='cssmenu' >
 			<ul>
-         <li class="active"><a href='#'><span style="color:#C83935">文辞阁</span></a></li>
+         <li class="active"><a href='#'><span style="color:black">文辞阁</span></a></li>
 			   <li class='last' style="float:right;"><a href='#'><span id="login_user"></span></a></li>
 			   <li id="log_out_li"style="float:right;"><a href='#'><span id="log_out">登出</span></a></li>
 			</ul>
 		</div>
 	</div>
-	<button id="post_btn" type="button" data-toggle="modal" data-target="#newpostmodal" style="background:#C83935;padding:5px 30px;color:white;margin-left:10px;">发帖</button>
-	<button id="track_btn" type="button" style="background:#C83935;padding:5px 30px;color:white;margin-left:10px;">有更新噢~</button>
+	<button id="post_btn" type="button" data-toggle="modal" data-target="#newpostmodal" style="background:white;padding:5px 30px;color:black;margin-left:10px;">发帖</button>
+	<button id="track_btn" type="button" style="background:white;padding:5px 30px;color:black;margin-left:10px;">有更新噢~</button>
 	<div id="page-content" class="index-page">
 		<div id="container" class="blurpage">
 			<!-- These are our grid blocks -->
@@ -133,7 +133,7 @@
       <div class="modal-dialog" role="document" style="margin-top:15%;">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel" style="display:inline;color:#C83935;font-weight:bold;">新帖子</h5>
+            <h5 class="modal-title" id="exampleModalLabel" style="display:inline;color:black;font-weight:bold;">新帖子</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -157,7 +157,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
-            <button type="button" class="btn btn-success" data-dismiss="modal" id="createpost" style="background:#C83935">发帖</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal" id="createpost" style="background:white;color:black;border:1px solid black;">发帖</button>
           </div>
         </div>
       </div>
@@ -167,7 +167,7 @@
       <div class="modal-dialog" role="document" style="margin-top:15%;">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel" style="display:inline;color:#C83935;font-weight:bold;">编辑帖子</h5>
+            <h5 class="modal-title" id="exampleModalLabel" style="display:inline;color:black;font-weight:bold;">编辑帖子</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -180,7 +180,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
-            <button type="button" class="btn btn-success" data-dismiss="modal" id="editpost" style="background:#C83935">提交编辑</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal" id="editpost" style="background:white;color:black;border:1px solid black;">提交编辑</button>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@
       <div class="modal-dialog" role="document" style="margin-top:15%;">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel" style="display:inline;color:#C83935;font-weight:bold;">回复</h5>
+            <h5 class="modal-title" id="exampleModalLabel" style="display:inline;color:black;font-weight:bold;">回复</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -203,7 +203,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
-            <button type="button" class="btn btn-success" data-dismiss="modal" id="createcomment" style="background:#C83935">回复</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal" id="createcomment" style="background:white;color:black;border:1px solid black;">回复</button>
           </div>
         </div>
       </div>

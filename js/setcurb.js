@@ -3,37 +3,49 @@ var hexaDemo5,
         {
             value: '0',
             style: {
-                backgroundColor: '#C83935'
+                backgroundColor: 'white',
+                color:'black',
+                border:'1px solid black'
             }
         },
         {
             value: '1',
             style: {
-                backgroundColor: '#f95550'
+                backgroundColor: 'white',
+                color:'black',
+                border:'1px solid black'
             }
         },
         {
             value: '2',
             style: {
-                backgroundColor: '#C83935'
+                backgroundColor: 'white',
+                color:'black',
+                border:'1px solid black'
             }
         },
         {
             value: '5',
             style: {
-                backgroundColor: '#f95550'
+                backgroundColor: 'white',
+                color:'black',
+                border:'1px solid black'
             }
         },
         {
             value: '7',
             style: {
-                backgroundColor: '#C83935'
+                backgroundColor: 'white',
+                color:'black',
+                border:'1px solid black'
             }
         },
         {
             value: '8',
             style: {
-                backgroundColor: '#f95550'
+                backgroundColor: 'white',
+                color:'black',
+                border:'1px solid black'
             }
         }
     ];
