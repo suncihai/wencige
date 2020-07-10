@@ -71,7 +71,7 @@
 
       $tn = imagecreatetruecolor($width, $height);
 
-      //$image = imagecreatefromjpeg($file);
+      $image = imagecreatefromjpeg($file);
       $info=getimagesize($target);
       if ($info['mime'] == 'image/jpeg'){
         $image = imagecreatefromjpeg($file);
