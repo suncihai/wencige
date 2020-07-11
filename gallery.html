@@ -180,15 +180,16 @@
 				</div>
 			</div>
 		</div><!-- /container -->
+		<audio id="museum_music" loop><source src="music/museum.mp3" type="audio/mp3"></audio>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="js/wallgallery.js"></script>
 		<script>
 			$(function() {
-
+				var museum= document.getElementById('museum_music');
+				museum.play();
 				Gallery.init( {
 					layout : [3,2,3,2]
 				} );
-
 			});
 		</script>
 	</body>
