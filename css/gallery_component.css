@@ -103,7 +103,7 @@ body {
 }
 
 .gr-gallery figcaption {
-	width: 120px;
+	width: 140px;
 	display: block;
 	font-size: 5px;
 	background: #661414;
@@ -119,6 +119,7 @@ body {
 .gr-gallery figcaption h2 span {
 	display: inline-block;
 	margin: 0 2px;
+	font-size: 14px;
 }
 
 .gr-gallery figcaption div {
