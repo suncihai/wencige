@@ -144,7 +144,7 @@ $(document).ready(function($) {
         $(".header").css("opacity",1);
         $(".password").fadeOut();
         $('#container').removeClass("blurpage");
-        $("body").append($('<audio autoplay loop><source src="music/jiarutianyouaiyi.mp3" type="audio/mp3"></audio>'));
+        $("body").append($('<audio autoplay loop><source src="music/windstop.mp3" type="audio/mp3"></audio>'));
     });
 
     $("#log_out").click(function(){
@@ -174,7 +174,7 @@ $(document).ready(function($) {
         $(".header").css("opacity",1);
         $(".password").hide();
         $('#container').removeClass("blurpage");
-        $("body").append($('<audio autoplay loop><source src="music/jiarutianyouaiyi.mp3" type="audio/mp3"></audio>'));
+        $("body").append($('<audio autoplay loop><source src="music/windstop.mp3" type="audio/mp3"></audio>'));
     }
 
     $("#createpost").click(function(){
