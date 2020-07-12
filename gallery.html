@@ -217,6 +217,25 @@
 		<script src="js/wallgallery.js"></script>
 		<script>
 			var museum= document.getElementById('museum_music');
+			$("body").on("touchstart", function(e) {
+				startX = e.originalEvent.changedTouches[0].pageX,
+				startY = e.originalEvent.changedTouches[0].pageY;
+			});
+			$("body").on("touchend", function(e) {
+				// 判断默认行为是否可以被禁用
+					moveEndX = e.originalEvent.changedTouches[0].pageX,
+					moveEndY = e.originalEvent.changedTouches[0].pageY,
+					X = moveEndX - startX,
+					Y = moveEndY - startY;
+				//左滑
+				if ( X > 0 ) {
+					$(".gr-prev").trigger("click");
+				}
+				//右滑
+				else if ( X < 0 ) {
+					$(".gr-next").trigger("click");
+				}
+			});
 			$(".container").click(function(){
 				museum.play();
 			})
