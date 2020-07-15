@@ -114,12 +114,16 @@
         </div>
     </div>
 	<div class="header">
-		<div id='cssmenu' >
+		<div id='cssmenu'>
 			<ul>
          <li class="active"><a href='#'><span style="color:black">文辞阁</span></a></li>
 			   <li class='last' style="float:right;"><a href='#'><span id="login_user"></span></a></li>
 			   <li id="log_out_li"style="float:right;"><a href='#'><span id="log_out">登出</span></a></li>
 			</ul>
+      <div id="user_balance_info">
+          <img src="images/copper_coin.png" style="width:32px;"/>
+          <span id="user_balance">0</span>
+      </div>
 		</div>
 	</div>
 	<button id="post_btn" type="button" data-toggle="modal" data-target="#newpostmodal" style="background:white;padding:5px 30px;color:black;margin-left:10px;">发帖</button>

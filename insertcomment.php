@@ -7,10 +7,15 @@
   $title = $_POST["title"];
   $text=$_POST["text"];
   $author=$_POST["author"];
+  $balance=$_POST["balance"];
  
   $sql = "INSERT INTO $dbname.$commenttable (commentid,postid,text,author) VALUES('$commentId','$postid','$text','$author')";
-
   $result = $conn->query($sql);
+
+  if($author=="wenhui"){
+    $sql = "UPDATE $dbname.$userprofile SET balance = $balance+1 WHERE $userprofile.author = 'wenhui'";
+    $result = $conn->query($sql);
+  }
 
   $query = "SELECT * FROM $commenttable";
   $result = $conn->query($query);

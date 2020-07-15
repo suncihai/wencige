@@ -7,6 +7,7 @@ $(document).ready(function($) {
     var currentTitle;
     var lastid;
     var postcount = localStorage.getItem("postcount");
+    var balance = 0;
                         
     $.ajax({    
         type: "GET",
@@ -31,7 +32,17 @@ $(document).ready(function($) {
                         generatecomment(response.data); 
                     },100);                   
                 }
-            });                  
+            });
+            $.ajax({    
+                type: "GET",
+                url: "getprofile.php",             
+                dataType: 'json',
+                data:{user:localStorage.getItem("user")},                 
+                success: function(response){                     
+                    balance = response.data.balance;
+                    $("#user_balance").html(response.data.balance);              
+                }
+            });                     
         }
    });
 
@@ -141,10 +152,20 @@ $(document).ready(function($) {
         }else{
             $('#login_user').html("欢迎! 辞海");
         }
+        $.ajax({    
+            type: "GET",
+            url: "getprofile.php",             
+            dataType: 'json',
+            data:{user:$user},                  
+            success: function(response){                     
+                balance = response.data.balance;
+                $("#user_balance").html(response.data.balance);               
+            }
+        }); 
         $(".header").css("opacity",1);
         $(".password").fadeOut();
         $('#container').removeClass("blurpage");
-        $("body").append($('<audio autoplay loop><source src="music/windstop.mp3" type="audio/mp3"></audio>'));
+        $("body").append($('<audio id="bg_music" autoplay loop><source src="music/windstop.mp3" type="audio/mp3"></audio>'));
     });
 
     $("#log_out").click(function(){
@@ -163,6 +184,7 @@ $(document).ready(function($) {
         hexaDemo5.flip();
         hexaDemo5.flip();
         $('#container').addClass("blurpage");
+        $("#bg_music").remove();
     })
 
     if(localStorage.getItem("user")!=null){
@@ -207,7 +229,7 @@ $(document).ready(function($) {
                 async:false,
                 url:"insertdata.php",             
                 dataType: 'json',
-                data:{postId:postId,postDate:today,title:title,text:text,imageUrl:imageUrl,author:author},               
+                data:{postId:postId,postDate:today,title:title,text:text,imageUrl:imageUrl,author:author, balance},               
                 success: function(response){   
                     $("form").submit();             
                 }
@@ -217,7 +239,7 @@ $(document).ready(function($) {
                 type:"POST",
                 url:"insertdata.php",             
                 dataType: 'json',
-                data:{postId:postId,postDate:today,title:title,text:text,imageUrl:imageUrl,author:author},               
+                data:{postId:postId,postDate:today,title:title,text:text,imageUrl:imageUrl,author:author, balance},               
                 success: function(response){
                     $("form").submit();
                 }
@@ -264,7 +286,7 @@ $(document).ready(function($) {
             type:"POST",
             url:"insertcomment.php",             
             dataType: 'json',
-            data:{postId:currenctpostid,commentId:commentId,postDate:date,title:currentTitle,text:text,author:author},               
+            data:{postId:currenctpostid,commentId:commentId,postDate:date,title:currentTitle,text:text,author:author,balance},               
             success: function(response){
                 location.reload();                 
             }

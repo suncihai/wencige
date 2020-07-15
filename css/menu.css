@@ -17,6 +17,16 @@
   padding: 0;
   display: block;
 }
+#cssmenu #user_balance_info {
+  position: absolute;
+  top: 6px;
+  right: 200px;
+  display: flex;
+}
+#cssmenu #user_balance_info #user_balance{
+  line-height: 32px;
+  margin-left: 8px;
+}
 #cssmenu ul:after,
 #cssmenu:after {
   content: " ";
@@ -362,5 +372,11 @@
     border-top: 2px solid black;
     right: 20px;
     top: 26px;
+  }
+}
+
+@media (max-width:500px){
+  #cssmenu #user_balance_info {
+    left: 60px;
   }
 }

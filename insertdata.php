@@ -19,10 +19,15 @@
   $text=$_POST["text"];
   $imageUrl="images/upload/".$date.'-'.$_POST["imageUrl"];
   $author=$_POST["author"];
+  $balance=$_POST["balance"];
  
   $sql = "INSERT INTO $dbname.$usertable (postid,postDate,title,text,imageUrl,author) VALUES('$id','$postDate','$title','$text','$imageUrl','$author')";
-
   $result = $conn->query($sql);
+
+  if($author=="wenhui"){
+    $sql = "UPDATE $dbname.$userprofile SET balance = $balanc+5 WHERE $userprofile.author = 'wenhui'";
+    $result = $conn->query($sql);
+  }
 
   $query = "SELECT * FROM $usertable";
   $result = $conn->query($query);
