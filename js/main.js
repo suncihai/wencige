@@ -11,7 +11,7 @@ $(document).ready(function($) {
                         
     $.ajax({    
         type: "GET",
-        url: "getdata.php",             
+        url: "services/getdata.php",             
         dataType: 'json',   //expect html to be returned                
         success: function(response){ 
              setTimeout(function(){
@@ -25,7 +25,7 @@ $(document).ready(function($) {
             },100); 
             $.ajax({    
                 type: "GET",
-                url: "getcomment.php",             
+                url: "services/getcomment.php",             
                 dataType: 'json',   //expect html to be returned                
                 success: function(response){                     
                     setTimeout(function(){
@@ -35,7 +35,7 @@ $(document).ready(function($) {
             });
             $.ajax({    
                 type: "GET",
-                url: "getprofile.php",             
+                url: "services/getprofile.php",             
                 dataType: 'json',
                 data:{user:localStorage.getItem("user")},                 
                 success: function(response){                     
@@ -154,7 +154,7 @@ $(document).ready(function($) {
         }
         $.ajax({    
             type: "GET",
-            url: "getprofile.php",             
+            url: "services/getprofile.php",             
             dataType: 'json',
             data:{user:$user},                  
             success: function(response){                     
@@ -227,7 +227,7 @@ $(document).ready(function($) {
             $.ajax({    
                 type:"POST",
                 async:false,
-                url:"insertdata.php",             
+                url:"services/insertdata.php",             
                 dataType: 'json',
                 data:{postId:postId,postDate:today,title:title,text:text,imageUrl:imageUrl,author:author, balance},               
                 success: function(response){   
@@ -237,7 +237,7 @@ $(document).ready(function($) {
         }else{
             $.ajax({    
                 type:"POST",
-                url:"insertdata.php",             
+                url:"services/insertdata.php",             
                 dataType: 'json',
                 data:{postId:postId,postDate:today,title:title,text:text,imageUrl:imageUrl,author:author, balance},               
                 success: function(response){
@@ -256,7 +256,7 @@ $(document).ready(function($) {
             $.ajax({    
                 type:"POST",
                 async:false,
-                url:"updatedata.php",             
+                url:"services/updatedata.php",             
                 dataType: 'json',
                 data:{postId:currenctpostid,postDate:date,text:text,title:currentTitle},               
                 success: function(response){   
@@ -266,7 +266,7 @@ $(document).ready(function($) {
         }else{
             $.ajax({    
                 type:"POST",
-                url:"updatedata.php",             
+                url:"services/updatedata.php",             
                 dataType: 'json',
                 data:{postId:currenctpostid,postDate:date,text:text,title:currentTitle},               
                 success: function(response){
@@ -284,7 +284,7 @@ $(document).ready(function($) {
         var author = localStorage.getItem("user");
         $.ajax({    
             type:"POST",
-            url:"insertcomment.php",             
+            url:"services/insertcomment.php",             
             dataType: 'json',
             data:{postId:currenctpostid,commentId:commentId,postDate:date,title:currentTitle,text:text,author:author,balance},               
             success: function(response){
