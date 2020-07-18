@@ -87,7 +87,7 @@ $(document).ready(function($) {
                 $user.html("辞海");
             }
 
-            var $avatar = $("<img>").prop({"width":50,"src":"images/"+value.author+".jpg"})
+            var $avatar = $("<img>").prop({"width":50,"src":"assets/images/"+value.author+".jpg"})
             var $text = $("<p>").html(value.text);
 
             $container.append($div);
@@ -117,7 +117,7 @@ $(document).ready(function($) {
             var $post = $(post);
 
             var $comment = $("<div>").prop({"class":"comment","id":value.commentid}).css({padding:"10px",borderTop:"1px solid #eee"});
-            var $avatar = $("<img>").prop({"width":25,"src":"images/"+value.author+".jpg"}).css({display:"inline-block",borderRadius:"25px",marginRight:"5px",verticalAlign:"top"});
+            var $avatar = $("<img>").prop({"width":25,"src":"assets/images/"+value.author+".jpg"}).css({display:"inline-block",borderRadius:"25px",marginRight:"5px",verticalAlign:"top"});
             var $text = $("<p>").css({width:"85%",fontSize:"12px",display:"inline-block",margin:"0",verticalAlign:"middle"}).html(value.text)
 
             $post.append($comment.append($avatar).append($text));
@@ -300,7 +300,7 @@ $(document).ready(function($) {
         var imagefile = file.type;
         var match= ["image/jpeg","image/png","image/jpg"];
         if(!((imagefile==match[0]) || (imagefile==match[1]) || (imagefile==match[2]))){
-            $('#previewing').attr('src','images/noimage.png');
+            $('#previewing').attr('src','assets/images/noimage.png');
             return false;
         }else{
             var reader = new FileReader();
@@ -325,7 +325,7 @@ $(document).ready(function($) {
         var newImg2=document.createElement('img');
         newDiv2.setAttribute("style","position:fixed;left:"+bubblerandomleft+"px;top:850px;width:60px;height:60px;cursor:pointer;z-index:999;");
         newDiv2.setAttribute("class","bubbleflying");
-        newImg2.setAttribute("src","images/bubble.png");
+        newImg2.setAttribute("src","assets/images/bubble.png");
         newDiv2.appendChild(newImg2);
         BubbleDiv.appendChild(newDiv2);
         newDiv2.style.transition="ease-in 5s";
@@ -343,7 +343,7 @@ $(document).ready(function($) {
            var newBubblefeather1img=document.createElement('img');
            newBubblefeather1.setAttribute("style","position:fixed;left:"+currentX+"px;top:"+(currentY-130)+"px;width:90px;height:108px");
            newBubblefeather1.setAttribute("class","bubblefeather1");
-           newBubblefeather1img.setAttribute("src","images/bubble_feather1.png");
+           newBubblefeather1img.setAttribute("src","assets/images/bubble_feather1.png");
            newBubblefeather1.appendChild(newBubblefeather1img);
            BubbleDiv.appendChild(newBubblefeather1);
 
@@ -351,7 +351,7 @@ $(document).ready(function($) {
            var newBubblefeather2img=document.createElement('img');
            newBubblefeather2.setAttribute("style","position:fixed;left:"+(currentX-100)+"px;top:"+(currentY-80)+"px;width:93px;height:81px");
            newBubblefeather2.setAttribute("class","bubblefeather2");
-           newBubblefeather2img.setAttribute("src","images/bubble_feather2.png");
+           newBubblefeather2img.setAttribute("src","assets/images/bubble_feather2.png");
            newBubblefeather2.appendChild(newBubblefeather2img);
            BubbleDiv.appendChild(newBubblefeather2);
            
@@ -359,7 +359,7 @@ $(document).ready(function($) {
            var newBubbleheart1img=document.createElement('img');
            newBubbleheart1.setAttribute("style","position:fixed;left:"+(currentX-10)+"px;top:"+(currentY-20)+"px;width:24px;height:24px");
            newBubbleheart1.setAttribute("class","bubbleheart1");
-           newBubbleheart1img.setAttribute("src","images/bubble_heart1.png");
+           newBubbleheart1img.setAttribute("src","assets/images/bubble_heart1.png");
            newBubbleheart1.appendChild(newBubbleheart1img);
            BubbleDiv.appendChild(newBubbleheart1);
 
@@ -367,7 +367,7 @@ $(document).ready(function($) {
            var newBubbleheart2img=document.createElement('img');
            newBubbleheart2.setAttribute("style","position:fixed;left:"+(currentX-50)+"px;top:"+(currentY+20)+"px;width:16px;height:16px");
            newBubbleheart2.setAttribute("class","bubbleheart2");
-           newBubbleheart2img.setAttribute("src","images/bubble_heart2.png");
+           newBubbleheart2img.setAttribute("src","assets/images/bubble_heart2.png");
            newBubbleheart2.appendChild(newBubbleheart2img);
            BubbleDiv.appendChild(newBubbleheart2);
 
@@ -375,7 +375,7 @@ $(document).ready(function($) {
            var newBubblestar1img=document.createElement('img');
            newBubblestar1.setAttribute("style","position:fixed;left:"+(currentX+10)+"px;top:"+(currentY+40)+"px;width:24px;height:24px");
            newBubblestar1.setAttribute("class","bubblestar1");
-           newBubblestar1img.setAttribute("src","images/bubble_star1.png");
+           newBubblestar1img.setAttribute("src","assets/images/bubble_star1.png");
            newBubblestar1.appendChild(newBubblestar1img);
            BubbleDiv.appendChild(newBubblestar1);
 
@@ -383,7 +383,7 @@ $(document).ready(function($) {
            var newBubblestar2img=document.createElement('img');
            newBubblestar2.setAttribute("style","position:fixed;left:"+(currentX-30)+"px;top:"+(currentY-10)+"px;width:34px;height:34px");
            newBubblestar2.setAttribute("class","bubblestar1");
-           newBubblestar2img.setAttribute("src","images/bubble_star2.png");
+           newBubblestar2img.setAttribute("src","assets/images/bubble_star2.png");
            newBubblestar2.appendChild(newBubblestar2img);
            BubbleDiv.appendChild(newBubblestar2);
 
@@ -391,7 +391,7 @@ $(document).ready(function($) {
            var newBubblestar3img=document.createElement('img');
            newBubblestar3.setAttribute("style","position:fixed;left:"+(currentX-10)+"px;top:"+(currentY)+"px;width:16px;height:16px");
            newBubblestar3.setAttribute("class","bubblestar1");
-           newBubblestar3img.setAttribute("src","images/bubble_star3.png");
+           newBubblestar3img.setAttribute("src","assets/images/bubble_star3.png");
            newBubblestar3.appendChild(newBubblestar3img);
            BubbleDiv.appendChild(newBubblestar3);
            

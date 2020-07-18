@@ -7,8 +7,8 @@
   <meta name="description" content="Love Diary">
   <meta name="author" content="#">
   <title>文辞阁</title>
-  <link rel="shortcut icon" href="images/favicon.ico"/>
-  <link rel="bookmark" href="images/favicon.ico"/>
+  <link rel="shortcut icon" href="assets/images/favicon.ico"/>
+  <link rel="bookmark" href="assets/images/favicon.ico"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/menu.css">
@@ -40,7 +40,7 @@
       $file_ext = end($tmp);
 
       $file_name = $date.'-'.$file_name;
-      $target = "images/upload/".$file_name;
+      $target = "assets/images/upload/".$file_name;
       
       $expensions= array("jpeg","jpg","png","JPG");
       
@@ -57,8 +57,8 @@
       }
 
       $imagepath =$file_name;
-      $save = "images/upload/" . $imagepath; //This is the new file you saving
-      $file = "images/upload/" . $imagepath; //This is the original file
+      $save = "assets/images/upload/" . $imagepath; //This is the new file you saving
+      $file = "assets/images/upload/" . $imagepath; //This is the original file
 
       list($width, $height) = getimagesize($file); 
 
@@ -97,11 +97,11 @@
         <div id="choose_character" style="display:none;">
              <p>你是谁呀？</p>
         	 <div id="wenhui" class="avatars">
-        	    <img src="images/wenhui.jpg" class="avatars_img"/>
+        	    <img src="assets/images/wenhui.jpg" class="avatars_img"/>
                 <p class="avatars_wording">文慧</p>
         	 </div>
         	 <div id="cihai" class="avatars">
-        	    <img src="images/cihai.jpg" class="avatars_img"/>
+        	    <img src="assets/images/cihai.jpg" class="avatars_img"/>
                 <p class="avatars_wording">辞海</p>
         	 </div>
         </div>
@@ -114,7 +114,7 @@
 			   <li id="log_out_li"style="float:right;"><a href='#'><span id="log_out">登出</span></a></li>
 			</ul>
       <div id="user_balance_info">
-          <img src="images/copper_coin.png" style="width:32px;"/>
+          <img src="assets/images/copper_coin.png" style="width:32px;"/>
           <span id="user_balance">0</span>
       </div>
 		</div>
@@ -147,7 +147,7 @@
 	              <form id="post_form" action="" method="POST" enctype="multipart/form-data">
 	                  <div style="width:70%;margin:20px auto;">
 	                  <label for="image" style="display:block;text-align:left;">图片</label>
-	                  <div id="image_preview" style="margin:15px;"><img id="previewing" src="images/noimage.png" /></div>
+	                  <div id="image_preview" style="margin:15px;"><img id="previewing" src="assets/images/noimage.png" /></div>
 	                  <input id="post_image" type="file" name="image"/>
 	                  </div>
 		          </form>

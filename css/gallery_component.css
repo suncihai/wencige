@@ -39,7 +39,7 @@ body {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	background: #810606 url(../images/damask.jpg) 0px 0px;
+	background: #810606 url(../assets/images/damask.jpg) 0px 0px;
 }
 
 .gr-wall-main {
@@ -52,7 +52,7 @@ body {
 	left: 0;
 	height: 30%;
 	width: 100%;
-	background: #874d2b url(../images/floor2.jpg) repeat-x 0px 0px;
+	background: #874d2b url(../assets/images/floor2.jpg) repeat-x 0px 0px;
 }
 
 .gr-gallery figure {
@@ -96,10 +96,10 @@ body {
 	border-style: solid;
 	border-width: 24px;
 	border-color: transparent;
-	-moz-border-image: url(../images/frame.jpg) 69 74 69 64 fill repeat;
-	-webkit-border-image: url(../images/frame.jpg) 69 69 70 66 repeat;
-	-o-border-image: url(../images/frame.jpg) 69 69 70 66 repeat;
-	border-image: url(../images/frame.jpg) 69 69 70 66 fill repeat;
+	-moz-border-image: url(../assets/images/frame.jpg) 69 74 69 64 fill repeat;
+	-webkit-border-image: url(../assets/images/frame.jpg) 69 69 70 66 repeat;
+	-o-border-image: url(../assets/images/frame.jpg) 69 69 70 66 repeat;
+	border-image: url(../assets/images/frame.jpg) 69 69 70 66 fill repeat;
 }
 
 .gr-gallery figcaption {
@@ -140,7 +140,7 @@ body {
 .gr-gallery nav span {
 	width: 90px;
 	height: 100%;
-	background: url(../images/steps.png);
+	background: url(../assets/images/steps.png);
 	float: left;
 	text-indent: -100%;
 	overflow: hidden;

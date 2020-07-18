@@ -17,7 +17,7 @@
   $postDate = $_POST["postDate"];
   $title = $_POST["title"];
   $text=$_POST["text"];
-  $imageUrl="images/upload/".$date.'-'.$_POST["imageUrl"];
+  $imageUrl="assets/images/upload/".$date.'-'.$_POST["imageUrl"];
   $author=$_POST["author"];
   $balance=$_POST["balance"];
  
