@@ -25,7 +25,7 @@
   $result = $conn->query($sql);
 
   if($author=="wenhui"){
-    $sql = "UPDATE $dbname.$userprofile SET balance = $balanc+5 WHERE $userprofile.author = 'wenhui'";
+    $sql = "UPDATE $dbname.$userprofile SET balance = $balanc+10 WHERE $userprofile.author = 'wenhui'";
     $result = $conn->query($sql);
   }
 

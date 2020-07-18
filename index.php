@@ -114,7 +114,7 @@
 			   <li id="log_out_li"style="float:right;"><a href='#'><span id="log_out">登出</span></a></li>
 			</ul>
       <div id="user_balance_info">
-          <img src="assets/images/copper_coin.png" style="width:32px;"/>
+          <img src="assets/images/copper_coin.png" style="width:32px;height:32px;"/>
           <span id="user_balance">0</span>
       </div>
 		</div>
