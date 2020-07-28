@@ -8,6 +8,7 @@ $(document).ready(function ($) {
     var lastid;
     var postcount = localStorage.getItem("postcount");
     var balance = 0;
+    var bg_music = document.getElementById('bg_music');
 
     $.ajax({
         type: "GET",
@@ -195,6 +196,10 @@ $(document).ready(function ($) {
         $(this).find("img").css("box-shadow", "none");
     });
 
+    $("body").click(function () {
+        bg_music.play()
+    })
+
     $(".avatars").click(function () {
         var $user = $(this).prop("id");
         localStorage.setItem("user", $user);
@@ -218,7 +223,6 @@ $(document).ready(function ($) {
         $(".header").css("opacity", 1);
         $(".password").fadeOut();
         $('#container').removeClass("blurpage");
-        $("body").append($('<audio id="bg_music" autoplay loop><source src="assets/music/secret_base.mp3" type="audio/mp3"></audio>'));
     });
 
     $("#log_out").click(function () {
@@ -249,7 +253,6 @@ $(document).ready(function ($) {
         $(".header").css("opacity", 1);
         $(".password").hide();
         $('#container').removeClass("blurpage");
-        $("body").append($('<audio autoplay loop><source src="assets/music/secret_base.mp3" type="audio/mp3"></audio>'));
     }
 
     $("#createpost").click(function () {

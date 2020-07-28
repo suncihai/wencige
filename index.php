@@ -205,6 +205,9 @@
         </div>
       </div>
      </div>
+     <audio id="bg_music" loop>
+        <source src="assets/music/secret_base.mp3" type="audio/mp3">
+    </audio>
 
     <!-- Once the page is loaded, initialized the plugin. -->
     <script type="text/javascript" src="js/jquery-2.1.1.js" ></script>
