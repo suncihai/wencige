@@ -4047,6 +4047,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     border-top-width: 0;
   }
 
+  header h2 {
+    font-size: 18px;
+  }
+
   #main > .posts > article p {
     line-height: 1.6;
   }
@@ -4069,8 +4073,14 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     padding: 8rem;
   }
   #main > .posts > article p {
-    line-height: 1.4;
+    line-height: 1.6;
     font-size: 32px;
+  }
+  header .date {
+    font-size: 32px;
+  }
+  header h2 {
+    font-size: 42px;
   }
 }
 
